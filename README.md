@@ -9,6 +9,7 @@ npm install
 npm run dev
 ```
 
+```bash
 🗂️ Project Structure
 
 ├── app/                # Routing & pages (App Router)
@@ -31,6 +32,7 @@ Clamp title to max 3 lines
 ✅ Pagination with full control (First / Prev / Next / Last)
 ✅ API Integration via /api/proxy (Next.js Middleware)
 ✅ Dynamic Detail Page /ideas/[slug] (SSR ready)
+```
 
 🌐 Live Demo
 👉 https://suitmedia-akmaaltaufiq.vercel.app/
