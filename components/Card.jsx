@@ -15,7 +15,6 @@ export default function Card({ post, index }) {
     year: 'numeric',
   })
 
-  // URL tujuan: bisa sesuaikan ke /ideas/{slug} atau pakai ID
   const detailUrl = `/ideas/${post.slug || post.id}`
 
   return (

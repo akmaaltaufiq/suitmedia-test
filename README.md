@@ -1,22 +1,40 @@
-# Suitmedia Magang Berdampak 2025 – Frontend Test
+# 🎯 Suitmedia Frontend Internship Test – Magang Berdampak 2025
 
-## Setup
-1. `npm install`  
-2. `npm run dev`  
+Implementasi test proyek frontend untuk seleksi magang di Suitmedia. Dibuat dengan **Next.js App Router**, **Tailwind CSS**, dan **dynamic API integration** dari backend Suitmedia.
 
-## Struktur
-- `app/` – Next.js App Router  
-- `components/` – Header, Banner, Card, Pagination  
-- `public/` – banner1.jpg, logo.png, placeholder.jpg, placeholder2.jpg  
-- `app/api/proxy/route.js` – API proxy to Suitmedia backend  
+## 🚀 Getting Started
 
-## Fitur
-- Header hide/show on scroll + transparent bg  
-- Banner with parallax & SVG clip  
-- List with sort, per‑page, lazy-loading, clamp, fallback images  
-- Pagination (5 pages) + first/prev/next/last  
-- Dynamic detail page `/ideas/[slug]` (SSR)  
-- API proxy for CORS-safe fetch
+```bash
+npm install
+npm run dev
 
-## Deploy
-- Vercel / Netlify: set root to project, Next.js App Router auto-detect.
+🗂️ Project Structure
+
+├── app/                # Routing & pages (App Router)
+├── components/         # Header, Banner, Card, Pagination
+├── public/             # Static assets: logo, banner, placeholder images
+├── tailwind.config.js
+└── next.config.js      # CORS-safe proxy
+
+✨ Features
+✅ Responsive UI with Tailwind CSS
+✅ Sticky Header with hide-on-scroll & transparent effect
+✅ Banner with parallax scroll & SVG clip
+✅ Post List with:
+Sorting (latest/oldest)
+Items per page [10, 20, 50]
+Persistent state on refresh
+Lazy-loading images
+Clamp title to max 3 lines
+✅ Pagination with full control (First / Prev / Next / Last)
+✅ API Integration via /api/proxy (Next.js Middleware)
+✅ Dynamic Detail Page /ideas/[slug] (SSR ready)
+
+🌐 Live Demo
+👉 https://suitmedia-akmaaltaufiq.vercel.app/
+
+🛠️ Built With
+Next.js 15 (App Router)
+Tailwind CSS
+Vercel – for deployment
+Suitmedia Public API
