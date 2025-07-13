@@ -36,11 +36,12 @@ npm run dev
 ✅ Dynamic Detail Page /ideas/[slug] (SSR ready)
 ```
 
-🌐 Live Demo
-👉 https://suitmedia-akmaaltaufiq.vercel.app/
-
 🛠️ Built With
 - Next.js 15 (App Router)
 - Tailwind CSS
 - Vercel – for deployment
 - Suitmedia Public API
+
+
+🌐 Live Demo
+👉 https://suitmedia-akmaaltaufiq.vercel.app/
