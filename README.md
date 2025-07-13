@@ -40,7 +40,7 @@ npm run dev
 👉 https://suitmedia-akmaaltaufiq.vercel.app/
 
 🛠️ Built With
-Next.js 15 (App Router)
-Tailwind CSS
-Vercel – for deployment
-Suitmedia Public API
+- Next.js 15 (App Router)
+- Tailwind CSS
+- Vercel – for deployment
+- Suitmedia Public API
