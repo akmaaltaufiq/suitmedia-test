@@ -7,6 +7,7 @@ Implementasi test proyek frontend untuk seleksi magang di Suitmedia. Dibuat deng
 ```bash
 npm install
 npm run dev
+```
 
 🗂️ Project Structure
 
@@ -17,6 +18,7 @@ npm run dev
 └── next.config.js      # CORS-safe proxy
 
 ✨ Features
+
 ✅ Responsive UI with Tailwind CSS
 ✅ Sticky Header with hide-on-scroll & transparent effect
 ✅ Banner with parallax scroll & SVG clip
